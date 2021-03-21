@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Marlon Dumal-is</Authors>
+    <Version>2.0.0</Version>
+    <Company>EMDD</Company>
+    <LangVersion>9.0</LangVersion>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Description>Base numeric Library for all EMDD Kt Libs</Description>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/marlond18/EMDD.KtNumerics.git</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/marlond18/EMDD.KtNumerics.git</RepositoryUrl>
+    <PackageIcon>emd2.png</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Numerics, C#, EMDD, KtNumerics</PackageTags>
+    <PackageReleaseNotes>BREAKING CHANGES!
+
+Re basing and reconfiguring the namespace</PackageReleaseNotes>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>9</LangVersion>
+    <DocumentationFile>D:\Programming Work\EMDD.KtLinearAlgebra\docs\EMDD.KtNumerics\EMDD.KtNumerics.xml</DocumentationFile>
+    <OutputPath>D:\Programming Work\EMDD.KtNumerics\build\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>9</LangVersion>
+    <!--<DocumentationFile>D:\Programming Work\EMDD.KtLinearAlgebra\docs\EMDD.KtNumerics\EMDD.KtNumerics.xml</DocumentationFile>-->
+    <OutputPath>D:\Programming Work\EMDD.KtNumerics\build\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="EMDD.Kt.Extensions" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\EMDD.Kt.Extensions\src\Images\emd2.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
