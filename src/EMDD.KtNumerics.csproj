@@ -17,6 +17,8 @@
     <PackageReleaseNotes>BREAKING CHANGES!
 
 Re basing and reconfiguring the namespace</PackageReleaseNotes>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <LangVersion>9</LangVersion>

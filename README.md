@@ -3,7 +3,7 @@
 ----------------
 
 # EMDD.KtNumerics
-a library to represent real and complex numbers. This is being used by other EMDD librabies such as [```EMDD.KtMatrix```](https://github.com/marlond18/EMDD.KtMatrix)
+a library to represent real and complex numbers. This is being used by other EMDD libraries such as [```EMDD.KtMatrix```](https://github.com/marlond18/EMDD.KtMatrix)
 
 ## Requirements
 
