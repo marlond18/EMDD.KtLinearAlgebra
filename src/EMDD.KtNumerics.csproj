@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Authors>Marlon Dumal-is</Authors>
     <Version>2.0.0</Version>
     <Company>EMDD</Company>
-    <LangVersion>9.0</LangVersion>
+    <LangVersion>latest</LangVersion>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Description>Base numeric Library for all EMDD Kt Libs</Description>
     <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
