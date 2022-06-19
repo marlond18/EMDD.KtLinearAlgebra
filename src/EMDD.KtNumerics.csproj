@@ -21,12 +21,12 @@ Re basing and reconfiguring the namespace</PackageReleaseNotes>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <LangVersion>9</LangVersion>
+    <LangVersion>latest</LangVersion>
     <DocumentationFile>D:\Programming Work\EMDD.KtLinearAlgebra\docs\EMDD.KtNumerics\EMDD.KtNumerics.xml</DocumentationFile>
     <OutputPath>D:\Programming Work\EMDD.KtNumerics\build\</OutputPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <LangVersion>9</LangVersion>
+    <LangVersion>latest</LangVersion>
     <!--<DocumentationFile>D:\Programming Work\EMDD.KtLinearAlgebra\docs\EMDD.KtNumerics\EMDD.KtNumerics.xml</DocumentationFile>-->
     <OutputPath>D:\Programming Work\EMDD.KtNumerics\build\</OutputPath>
   </PropertyGroup>
