@@ -1,4 +1,4 @@
-&nbsp; [![Nuget](https://img.shields.io/nuget/v/EMDD.KtNumerics)](https://www.nuget.org/packages/EMDD.KtNumerics/)[![Nuget](https://img.shields.io/nuget/dt/EMDD.KtNumerics)](https://www.nuget.org/stats/packages/EMDD.KtNumerics?groupby=Version&groupby=ClientName&groupby=ClientVersion)[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/marlond18/EMDD.KtNumerics/Run%20Tests)](https://github.com/marlond18/EMDD.KtNumerics/actions/workflows/runTest.yml)
+&nbsp; [![Nuget](https://img.shields.io/nuget/v/EMDD.KtNumerics)](https://www.nuget.org/packages/EMDD.KtNumerics/)[![Nuget](https://img.shields.io/nuget/dt/EMDD.KtNumerics)](https://www.nuget.org/stats/packages/EMDD.KtNumerics?groupby=Version&groupby=ClientName&groupby=ClientVersion)[![Deploy to Nuget](https://github.com/marlond18/EMDD.KtNumerics/actions/workflows/nuget.yml/badge.svg)](https://github.com/marlond18/EMDD.KtNumerics/actions/workflows/nuget.yml)[![Run Tests](https://github.com/marlond18/EMDD.KtNumerics/actions/workflows/runTest.yml/badge.svg)](https://github.com/marlond18/EMDD.KtNumerics/actions/workflows/runTest.yml)
 &nbsp; 
 ----------------
 
