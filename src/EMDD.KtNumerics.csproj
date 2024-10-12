@@ -3,7 +3,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Authors>Marlon Dumal-is</Authors>
-    <Version>2.0.2</Version>
+    <Version>2.0.3</Version>
     <Company>EMDD</Company>
     <LangVersion>latest</LangVersion>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
@@ -11,7 +11,6 @@
     <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/marlond18/EMDD.KtNumerics.git</PackageProjectUrl>
     <RepositoryUrl>https://github.com/marlond18/EMDD.KtNumerics.git</RepositoryUrl>
-    <PackageIcon>emd2.png</PackageIcon>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Numerics, C#, EMDD, KtNumerics</PackageTags>
     <PackageReleaseNotes>BREAKING CHANGES!
