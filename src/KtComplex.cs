@@ -121,7 +121,10 @@ public class KtComplex : Number
         real = Real;
         imaginary = Imaginary;
     }
-
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <returns></returns>
     public double Argument() => NumericExtensions.Atan3(Imaginary, Real);
 
     public override string ToString() => ToString("#0.###");
@@ -145,6 +148,10 @@ public class KtComplex : Number
 
     public bool IsImaginary() => Real.NearZero();
 
+    /// <summary>
+    /// convert complex value to tuple
+    /// </summary>
+    /// <param name="val"></param>
     public static implicit operator (double, double)(KtComplex val) => val is null ? (0, 0) : (val.Real, val.Imaginary);
 
     /// <summary>

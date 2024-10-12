@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EMDD.KtNumerics</name>
+    </assembly>
+    <members>
+        <member name="T:EMDD.KtNumerics.KtComplex">
+            <summary>
+            Complex Number
+            </summary>
+        </member>
+        <member name="P:EMDD.KtNumerics.KtComplex.Real">
+            <summary>
+            Real Part
+            </summary>
+        </member>
+        <member name="P:EMDD.KtNumerics.KtComplex.Imaginary">
+            <summary>
+            Imaginary Part
+            </summary>
+        </member>
+        <member name="P:EMDD.KtNumerics.KtComplex.I">
+            <summary>
+            Create an imaginary number
+            </summary>
+        </member>
+        <member name="P:EMDD.KtNumerics.KtComplex.Zero">
+            <summary>
+            Create a zero complex number
+            </summary>
+        </member>
+        <member name="P:EMDD.KtNumerics.KtComplex.One">
+            <summary>
+            Create Unity Complex number
+            </summary>
+        </member>
+        <member name="M:EMDD.KtNumerics.KtComplex.#ctor">
+            <summary>
+            Real=0, imaginary=0
+            </summary>
+        </member>
+        <member name="M:EMDD.KtNumerics.KtComplex.#ctor(System.Double,System.Double)">
+            <summary>
+            create complex number
+            </summary>
+            <param name="realPart"></param>
+            <param name="imaginaryPart"></param>
+        </member>
+        <member name="M:EMDD.KtNumerics.KtComplex.Add(EMDD.KtNumerics.Number)">
+            <summary>
+            Add
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EMDD.KtNumerics.KtComplex.Negate">
+            <summary>
+            change sign
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EMDD.KtNumerics.KtComplex.Multiply(EMDD.KtNumerics.Number)">
+            <summary>
+            Multiply with
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EMDD.KtNumerics.KtComplex.Equals(EMDD.KtNumerics.Number)">
+            <summary>
+            defaut equals
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EMDD.KtNumerics.KtComplex.Modulus">
+            <summary>
+            sqrt of the square of the components
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EMDD.KtNumerics.KtComplex.Inverse">
+            <summary>
+            inverse of a complex number
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EMDD.KtNumerics.KtComplex.CreateComplexNumberFromPolar(System.Double,System.Double)">
+            <summary>
+            Create a rectangular complex number from polar
+            </summary>
+            <param name="modulus"> radius or modulus </param>
+            <param name="argumentInDegrees"> angle in degrees</param>
+            <returns></returns>
+        </member>
+        <member name="T:EMDD.KtNumerics.KtRealNumber">
+            <summary>
+            Real Number
+            </summary>
+        </member>
+        <member name="M:EMDD.KtNumerics.NumberHelper.Gcd(System.Int64,System.Int64)">
+            <summary>
+            Greatest Common Dinaminator for two numbers
+            </summary>
+            <param name="left"></param>
+            <param name="right"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

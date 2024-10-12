@@ -39,7 +39,11 @@ public class KtRealNumber : Number
     };
 
     public override Number Inverse() => new KtRealNumber(1 / Value);
-
+    
+    /// <summary>
+    /// implicit conversion to double
+    /// </summary>
+    /// <param name="val"></param>
     public static implicit operator double(KtRealNumber val) => val switch
     {
         null => 0,
