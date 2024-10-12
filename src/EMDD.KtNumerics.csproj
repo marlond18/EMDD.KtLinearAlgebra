@@ -33,10 +33,4 @@ Re basing and reconfiguring the namespace</PackageReleaseNotes>
   <ItemGroup>
     <PackageReference Include="EMDD.Kt.Extensions" Version="1.0.0" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\EMDD.Kt.Extensions\src\Images\emd2.png">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
-  </ItemGroup>
 </Project>
